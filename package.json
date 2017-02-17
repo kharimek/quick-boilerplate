@@ -1,0 +1,19 @@
+{
+  "name": "circlegraph",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/*.scss -o css/",
+    "server": "live-server --watch=js,css,index.html",
+    "jshint": "jshint js/*.js",
+    "start": "npm run sass & npm run server & npm run jshint"
+  },
+  "author": "matt",
+  "license": "ISC",
+  "devDependencies": {
+    "jshint": "^2.9.4",
+    "live-server": "^1.2.0",
+    "node-sass": "^4.5.0"
+  }
+}
